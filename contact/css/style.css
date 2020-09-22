@@ -1858,6 +1858,7 @@ ol {
 
 .blog__sidebar .blog__sidebar__item .sidebar__social a.youtube {
 	background: #ff0000;
+	/* background: black; */
 }
 
 .blog__sidebar .blog__sidebar__item .sidebar__social a.instagram {
