@@ -724,7 +724,6 @@ section {
   padding: 40px 30px;
   width: 100%;
 }
-
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
   color: linear-gradient(to bottom,#38ddff 0%,#2691de 100%);
@@ -734,9 +733,11 @@ section {
 .why-us .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
-  margin: 0 0 30px 0;
+  margin: -20px 0 30px 0;
 }
-
+/* .icon-box h4{
+  margin-top: -10px;
+} */
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
   color: #716f6f;
@@ -759,7 +760,7 @@ section {
 }
 
 .about .icon-box {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .about .icon-box .icon {
@@ -804,10 +805,9 @@ section {
 .about .icon-box .title a:hover {
   color: linear-gradient(to bottom,#38ddff 0%,#2691de 100%);
 }
-
 .about .icon-box .description {
   margin-left: 85px;
-  line-height: 24px;
+  line-height: 20px;
   font-size: 14px;
 }
 
@@ -953,9 +953,9 @@ section {
 }
 
 .services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 17px;
   text-transform: uppercase;
 }
 
@@ -978,8 +978,9 @@ section {
 }
 
 .services .description {
-  line-height: 24px;
+  line-height: 18px;
   font-size: 14px;
+  
 }
 
 /*--------------------------------------------------------------
