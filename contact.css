@@ -21,7 +21,7 @@
     margin: 100px 0px 100px 20px ;
   }
   .row h1{
-    margin: 0 0 30px 530px;
+    margin: 40px 0 30px 530px;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -79,7 +79,7 @@
   /* Responsive columns */
   @media screen and (max-width: 800px) {
     .row h1{
-     margin: 0 0 3% 40%; 
+     margin: 30px 0 3% 40%; 
     }
     .column {
       width: 100%;
@@ -322,7 +322,9 @@
     transform: translateY(-50%) translateX(0px) translateZ(0px) scale(1);
     transform-style: preserve-3d;
   }
-  
+  .card-container2 p{
+    color: white;
+  }
   
   /*ADD SHADOWS OPTIONAL*/
   
