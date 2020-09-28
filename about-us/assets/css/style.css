@@ -1162,7 +1162,7 @@ section {
   position: relative;
   overflow: hidden;
 }
-.member-img>img{
+.member-img img{
   width: 300px;
 }
 .team .member .social {
