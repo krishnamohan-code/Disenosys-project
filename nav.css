@@ -77,7 +77,7 @@ nav {
     /* background: #9ca3da; */
     border-bottom: 2px solid skyblue;
 }
-
+.menu li>a:hover{border-bottom: none;}
 .menu ul {
     visibility: hidden;
     opacity: 0;
@@ -234,11 +234,11 @@ a.homer {
 
 }
 @media (max-width: 767px) {
+
     .mainWrap {
         width: auto;
         padding: 50px 20px;
     }
-
     .menu {
         display: none;
     }
@@ -259,10 +259,7 @@ a.homer {
       display: block;
       width: 200px;
   }
-    nav {
-        margin: 0;
-        background: black;
-    }
+    
 
     .menu li {
         display: block;
@@ -305,7 +302,6 @@ a.homer {
         transform: initial;
     }
 }
-
 @media (max-width: 480px) {
     .responsive-menu i {
         margin-left: 20vw;
